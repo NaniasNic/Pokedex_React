@@ -1,0 +1,53 @@
+header{
+    width: 100%;
+    height: 100%;
+    background-color: #EE4848;
+}
+
+header > .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.logo h1{
+    color: #DAA520;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+nav.menu-desk{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+
+nav.menu-desk ul{
+    list-style: none;
+}
+
+nav.menu-desk ul li{
+    float: left;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav.menu-desk ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav.menu-desk ul li a i{
+    margin-right: 10px;
+}

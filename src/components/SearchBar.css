@@ -1,0 +1,28 @@
+.Search-back{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchBar{
+    margin-top: 20px;
+}
+
+.SearchBar input{
+    padding: 5px 10px;
+}
+
+.Search-btn{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Search-btn button{
+    padding: 5px 10px;
+    border: none;
+    background-color: #DAA520;
+    color: #fff;
+    cursor: pointer;
+}
